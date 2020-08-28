@@ -1,0 +1,45 @@
+#!/usr/bin/env fish
+
+pushd ~/.dotfiles
+stow bin
+stow fish
+stow nvim
+stow vscode
+popd
+
+mkdir -p ~/.local/share/nvim/backup
+mkdir -p ~/.local/share/nvim/undo
+mkdir -p ~/.local/share/nvim/temp
+
+asdf plugin add ruby
+asdf install ruby 2.7.1
+asdf global ruby 2.7.1
+
+asdf plugin add golang
+asdf install golang 1.15
+asdf global golang 1.15
+
+asdf plugin add nodejs
+asdf install nodejs 12.16.2
+asdf global nodejs 12.16.2
+
+# features
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension ms-vsliveshare.vsliveshare-audio
+code --install-extension vscodevim.vim
+
+# languages
+code --install-extension dunstontc.viml
+code --install-extension faustinoaq.crystal-lang
+code --install-extension golang.go
+code --install-extension ms-python.python
+code --install-extension rebornix.ruby
+code --install-extension skyapps.fish-vscode
+
+# external tools
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension sibiraj-s.vscode-scss-formatter
+
+# themes
+code --install-extension dracula-theme.theme-dracula

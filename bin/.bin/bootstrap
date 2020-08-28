@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# install homebrew
+# install Brew packages
+asdf
+    - ruby, go, node plugins
+    - install default versions of each and make global

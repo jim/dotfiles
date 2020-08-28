@@ -1,0 +1,33 @@
+{
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "[crystal]": {},
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapLineLength": 160,
+    "html.format.extraLiners": "",
+    "html.format.endWithNewline": true,
+    "javascript.validate.enable": false,
+    "javascript.format.enable": false,
+    "standard.autoFixOnSave": true,
+    "standard.enable": true,
+    "standard.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "git.autofetch": true,
+    "[markdown]": {
+        "editor.formatOnSave": true,
+    },
+    "python.formatting.provider": "black",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.formatTool": "goimports"
+}
