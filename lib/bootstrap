@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+dotfiles_lib=$(dirname "$0")
+
+# install homebrew
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+./"$dotfiles_lib"/../lib/sync-config
+
+# set fish as default shell
+# echo /usr/local/bin/fish | sudo tee -a /etc/shells
+# chsh -s /usr/local/bin/fish

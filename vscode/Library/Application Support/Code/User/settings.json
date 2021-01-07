@@ -1,8 +1,8 @@
 {
     "editor.formatOnSave": true,
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Parasol",
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "[crystal]": {},
     "html.format.indentInnerHtml": true,
     "html.format.wrapLineLength": 160,
@@ -29,5 +29,12 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "go.formatTool": "goimports"
+    "go.useLanguageServer": true,
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
